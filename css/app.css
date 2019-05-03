@@ -1,0 +1,154 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+}
+/***************************************
+**************general************
+**************************************/
+
+/***************************************
+**************HEADER************
+**************************************/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: rgb(32, 32, 32);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header .logo{
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-weight: bold;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none !important;
+
+}
+
+header nav ul li a{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color:  #fff;
+    text-decoration: none;
+    display: block;
+
+}
+
+header nav ul li a:hover,
+header nav ul li a.active{
+    color: #fff;
+    background: #2196f3;
+
+}
+
+.menu-toggle{
+    color: #fff;
+    float: right;
+    margin-left: 10%;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+#overlay {
+    background: black;
+    width: 100%;
+    opacity: 0.80;
+    height: 100%;
+    z-index: 10;
+   
+}
+
+@media (max-width: 891px){
+    header{
+        padding: 0 20px;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+
+    header nav{
+        float: left;
+        position : absolute;
+        width: 50%;
+        height: calc(100vh - 50px);
+        background: #333;
+        top:50px;
+        left: -100%;
+        transition: 0.5s;
+    }
+    header nav.active{
+        left: 0;
+        
+    }
+    header nav ul{
+        display: block;
+        text-align: center;
+    }  
+    
+    header nav ul li a{
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+    }
+    
+    header #overlay{
+        float: left;
+        position : absolute;
+        width: 50%;
+        height: calc(100vh - 50px);
+        background: rgb(36, 36, 36);
+        top:50px;
+        left: -100%;
+        transition: 0.5s;
+        z-index: 50;
+    }
+    header #overlay.active{
+        left: 50%;
+    }
+
+    .active{
+        overflow: hidden;
+    }
+}
+
+ 
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  
+/***************************************
+**************menu************
+**************************************/
+
+
+/***************************************
+**************responsive************
+**************************************/
+
+/***************************************
+**************menu************
+**************************************/
+
+/***************************************
+**************menu************
+**************************************/

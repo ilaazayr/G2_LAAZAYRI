@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
+    <title>E-Club | Connexion</title>
+    <meta name="description" content="Vous souhaitez nous contacter pour avoir des informations? Alors n'hésitez plus même pas besoin
+    de s'inscrire !"/>
+    <meta name="keywords" content="E-Club, contact, location, Esport, matériel, informatique"/>
+    <meta name="author" content="I.L"/>      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha394-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha394-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+  </head>
+  <body>
+    <header class="header">
+      <!-- navbar avec les logo -->
+      <nav id="navbar">
+        <ul>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="connexion.html">Connexion</a></li>
+          <li><a href="inscription.html">S'inscrire</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>    
+      </nav>
+      <div id="overlay">
+      </div>
+      <div id="overlay2">
+        </div>     
+        <div id="connexion">
+            <div class="contact-form">
+              <h1>Connexion</h1>
+              <form id="contact-form" method="POST" action="">
+                <input name="pseudo" type="text" class="form-control " placeholder="Pseudo/mail" required>
+                <input type="password" name="password" class="form-control " placeholder="Mot de passe"  required>
+                <div class="connex-inscrip">
+                  <a href="page/inscription.html" >Vous n'avez pas de compte? Inscrivez-Vous !</a>
+                </div>
+                <br>
+                <input type="submit" class="form-control submit2" value="Connexion">
+              </form>
+            </div>  
+        </div>   
+      <a href="javascript:switchDisplay();">
+        <div class="menu-toggle" id="barre">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+      </a>
+      <a href="javascript:switchDisplay();">
+        <div class="menu-toggle2" id="croix" style="display:none">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+      </a>
+      <div class="logo">
+        <a href="../index.html"><img src="../img/logo.png"></a>
+      </div>
+      <a href="#">
+        <div class="menu-toggle3" id="login">
+          <i class="fa fa-user-circle" aria-hidden="true"></i>
+        </div>
+      </a> 
+    </header>
+    <section class="contact-page">
+        <div class="container">
+                <br>
+            <div class="contact-title">
+                <h1>Connecter-Vous</h1>
+                <h2>C'est le début d'une grande aventure avec l'E-CLUB</h2>
+            </div>
+            <div class="contact-form">
+                <form id="contact-form" method="POST" action="">
+                        <input name="pseudo" type="text" class="form-control " placeholder="Pseudo ou adresse mail" required>
+                        <input type="password" name="password" class="form-control " placeholder="Mot de passe"  required>
+                    <div class="connex-inscrip">
+                        <a href="inscription.html" >Vous n'avez pas de compte? Inscrivez-Vous !</a>
+                    </div>
+                    <br>
+                    <input type="submit" class="form-control submit2" value="Connexion">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Le E-Club</h5>
+            <p>C'est un lieu où vous pouvez louer des pc et même le lieu le samedi 
+              pour faire une lan ou autre événement e-sport et c’est pour tout les fans d'Esport !
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="logo2">
+              <img src="../img/logo.png">
+            </div>
+            <ul class="list-unstyled quick-links">
+              <li><a href="../index.html"><i class="fa fa-angle-double-right fa-lg"></i>Acceuil</a></li>
+              <li><a href="connexion.html"><i class="fa fa-angle-double-right fa-lg"></i>Connexion</a></li>
+              <li><a href="inscription.html"><i class="fa fa-angle-double-right fa-lg"></i>S'inscrire</a></li>
+              <li><a href="blog.html"><i class="fa fa-angle-double-right fa-lg"></i>Blog</a></li>
+              <li><a href="contact.html"><i class="fa fa-angle-double-right fa-lg"></i>Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Nous contacter</h5>
+            <ul class="list-unstyled quick-links">
+              <li><a href="javascript:void();"><i class="fa fa-home fa-lg" aria-hidden="true"></i>27 rue Quebec MMI</a></li>
+              <li><a href="javascript:void();"><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>06.04.05.07.02</a></li>
+            </ul>
+            <ul class="reseau">
+              <li><a href="javascript:void();"><i class="test fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
+              <li><a href="javascript:void();"><i class="test fa fa-instagram fa-lg"></i></a></li>
+              <li><a href="javascript:void();"><i class="test fa fa-twitter fa-lg"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">Copyright &copy; 2019 E-Club | projet Étudiant en MMI</div>
+    </section>
+  </body>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha394-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC9HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+  <script src="../js/nav_overlay.js"></script>
+  <script src="../js/btn_menu.js"></script>
+</html>
