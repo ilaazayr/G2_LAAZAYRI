@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
+    <title>E-Club | déploiement sur toute la France</title>
+    <meta name="description" content="L'E-club se déploiement sur toute la France est ce dès le mois prochain. Dans cet article vous découvrirez comment nous en sommes arrivé là."/>
+    <meta name="keywords" content="E-Club, contact, location, Esport, matériel, informatique"/>
+    <meta name="author" content="I.L"/>      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha394-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha394-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+  </head>
+  <body>
+    <header class="header">
+      <!-- navbar avec les logo -->
+      <nav id="navbar">
+        <ul>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="connexion.html">Connexion</a></li>
+          <li><a href="inscription.html">S'inscrire</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>    
+      </nav>
+      <div id="overlay">
+      </div>
+      <div id="overlay2">
+      </div>     
+      <div id="connexion">
+          <div class="contact-form">
+            <h1>Connexion</h1>
+            <form id="contact-form" method="POST" action="">
+              <input name="pseudo" type="text" class="form-control " placeholder="Pseudo/mail" required>
+              <input type="password" name="password" class="form-control " placeholder="Mot de passe"  required>
+              <div class="connex-inscrip">
+                <a href="page/inscription.html" >Vous n'avez pas de compte? Inscrivez-Vous !</a>
+              </div>
+              <br>
+              <input type="submit" class="form-control submit2" value="Connexion">
+            </form>
+          </div>  
+      </div>   
+      <a href="javascript:switchDisplay();">
+        <div class="menu-toggle" id="barre">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+      </a>
+      <a href="javascript:switchDisplay();">
+        <div class="menu-toggle2" id="croix" style="display:none">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+      </a>
+      <div class="logo">
+        <a href="../index.html"><img src="../img/logo.png"></a>
+      </div>
+      <a href="#">
+        <div class="menu-toggle3" id="login">
+          <i class="fa fa-user-circle" aria-hidden="true"></i>
+        </div>
+      </a> 
+    </header>
+    <section class="article flex">
+        <div class="container box"><br><br><br><br>
+          <h1>L'E-Club se déploie sur toute la France</h1>
+          
+          <img class="salle" src="../img/article1.png" > <br><br>
+          <p class="article1">Cela ne fait qu'un an que nous existons et nous avons décider d'ouvrir de nouvelles salles à travers la France.
+            Nous avons vu sur les réseaux et bien entendu dans notre salle à Paris que <strong>L'E-club</strong> plaît de plus en plus.
+            Nos nouvelles salles ouvriront dès le mois de <strong>Juin</strong> à <strong>Lille</strong>, <strong>Lyon</strong>, <strong>Marseille</strong>
+            et <strong>Bordeaux</strong>. En plus de l'ouverture de nouvelle salles qui nous permettrons de vous faire partager de bons moments au quatre coin de la France, 
+            nous organiserons chaque moi un tournoi sur <strong>3 jeux</strong>
+            dans chacune de nos salle 4 joueurs seront qualifiés et pourront venir s'affronter à l'E-Club de Paris. Nous vous laissons
+            découvrir le premier jeux ici : <a href="https://trackmania.com/" target="blanck">le premier jeux de l'E-Club tournament</a>, en dehors de nos tournois
+            nous avons pu avoir de nouveaux partenariats notamment avec <a href="https://www.nvidia.com/fr-fr/" target="blanck"><strong>Nivdia</strong></a> et <a href="https://www.acer.com/ac/fr/FR/content/predator-home" target="blanck"><strong>Predator</strong></a>
+            qui nous fournissent un matériel de qualité et en plus d'avoir un matériel de qualité quoi de mieux que d'être parfaitement installé
+            avec les chaises <a href="http://www.quersus.com/fr/" target="blanck"><strong>Quersus</strong></a>. L'E-Club grandit de plus en plus et ça c'est grâce à vous!
+            
+          </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Le E-Club</h5>
+            <p>C'est un lieu où vous pouvez louer des pc et même le lieu le samedi 
+              pour faire une lan ou autre événement e-sport et c’est pour tout les fans d'Esport !
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="logo2">
+              <img src="../img/logo.png">
+            </div>
+            <ul class="list-unstyled quick-links">
+              <li><a href="../index.html"><i class="fa fa-angle-double-right fa-lg"></i>Accueil</a></li>
+              <li><a href="../page/produit.html"><i class="fa fa-angle-double-right fa-lg"></i>produit</a></li>
+              <li><a href="../page/connexion.html"><i class="fa fa-angle-double-right fa-lg"></i>Connexion</a></li>
+              <li><a href="../page/inscription.html"><i class="fa fa-angle-double-right fa-lg"></i>S'inscrire</a></li>
+              <li><a href="../page/blog.html"><i class="fa fa-angle-double-right fa-lg"></i>Blog</a></li>
+              <li><a href="../page/article.html"><i class="fa fa-angle-double-right fa-lg"></i>Article</a></li>
+              <li><a href="../page/contact.html"><i class="fa fa-angle-double-right fa-lg"></i>Contact</a></li>
+              <li><a href="../page/loader.html"><i class="fa fa-angle-double-right fa-lg"></i>Loader</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Nous contacter</h5>
+            <ul class="list-unstyled quick-links">
+              <li><a href="javascript:void();"><i class="fa fa-home fa-lg" aria-hidden="true"></i>27 rue Quebec MMI</a></li>
+              <li><a href="javascript:void();"><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>06.04.05.07.02</a></li>
+            </ul>
+            <ul class="reseau col-6">
+              <li><a href="https://www.facebook.com/"><i class="test fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/?hl=fr"><i class="test fa fa-instagram fa-lg"></i></a></li>
+              <li><a href="https://twitter.com/"><i class="test fa fa-twitter fa-lg"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">Copyright &copy; 2019 E-Club | projet Étudiant en MMI</div>
+    </section>
+  </body>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha394-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC9HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+  <script src="../js/nav_overlay.js"></script>
+  <script src="../js/btn_menu.js"></script>
+</html>
